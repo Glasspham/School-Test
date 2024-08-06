@@ -1,0 +1,17 @@
+THỰC HÀNH Thuật toán tìm đường thi "Theo chiều rộng trước"
+- SV xem lại thuật toán Tìm theo chiều rộng trước từ tài liệu số [1] hoặc [2]
+- SV tự viết chương trình hoặc tham khảo code tại địa
+chi "https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/" 
+hoặc tại 1 website uy tín.
+- Chạy chương trình và kiểm tra sự đúng đần của chương trình bằng ví dụ
+đã có trong code tham khảo
+- Sửa lỗi nếu chương trình chạy ra kết quả không đúng.
+- Thay nội dung của đoạn code sao cho có thể thực hiện được 3 Trường
+hợp sau:
+Trường hợp 1: Nhập dữ liệu đồ thị từ bàn phím, in kết qua ra màn hình
+Trường hợp 2: Nhập dữ liệu đồ thị từ file DoThi.inp, in kết qua ra file
+DuongDi.out
+Trường hợp 3: Bổ sung Trường hợp 2, in kết quả trung gian ra màn hình và
+file KQTG.out
+=> NỘP BÀI LÀM (FILE .CPP) + FILE .INP, FILE .OUT vào cuối giờ.
+Lưu ý: Tự bổ sung thêm cách làm là tách thành nhiều file nhỏ hơn để dễ quản lý

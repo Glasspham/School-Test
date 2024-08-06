@@ -1,0 +1,19 @@
+Câu 6:
+Tạo lớp có tên SoHọc với các yêu cầu sau:
+a. Lớp Sơ Học có các thuộc tỉnh và phương thức:
+Thuộc tính: number1, number2.
+Phương thức:
+o Phương thức khởi tạo init(): khởi tạo giá trị cho numberl và number2.
+o Phương thức Nhap Thong Tin: dùng để nhập giá trị numberl, number2.
+o Phương thức In Thong Tin (): dùng để in giá trị numberl, number2.
+o Phương thức Công(): dùng để cộng number1, number2.
+o Phương thức Tru(): dùng để trừ number 1, number2.
+o Phương thức Nhan(): dùng để nhân number1, number2.
+o Phương thức Chia(): dùng để chia numberl, number2.
+b. Tạo đối tượng sohoc kiểu SoHoc, khởi tạo giá trị cho đối tượng là 6 và 3 và thực hiện các yêu cầu sau:
+Gọi phương thức Nhap Thong Tin()
+In giá trị của phương thức In ThongTin()
+In giá trị của phương thức Cong()
+In giá trị của phương thức Tru()
+In giá trị của phương thức Nhan()
+In giá trị của phương thức Chía()

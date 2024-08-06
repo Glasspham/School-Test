@@ -1,0 +1,107 @@
+Question 1
+Sinh viên thực hiện chương trình để đảo ngược chuỗi có sẵn. Việc đảo
+ngược ở đây chỉ thay đổi thứ tự từ trong câu chứ không thay đổi thứ tự
+trong từ.
+Đầu vào: Chuỗi s
+Đầu ra: Chuỗi s sau khi đảo ngược.
+Ví dụ 1:
+Input: "You are  students"
+Output: "Students  are You"
+For example:
+Test 1
+Input: You are  Students
+Result: Students  are You
+Test 4
+Input: 1 2 3 4 5, you win!
+Result: win! you 5, 4 3 2 1
+
+
+Question 2
+Viết chương trình đọc vào chuỗi s, tìm tất cả các chuỗi con trong s mà
+chuỗi con chỉ có duy nhất 1 kí tự (ví dụ : aaaa, bbbb, cc, ... ) và trả về độ
+dài của chuỗi con dài nhất.
+Đầu vào:
+Chuỗi s có độ dài ngắn nhất là 1.
+Đầu ra: Độ dài của chuỗi con dài nhất mà chỉ có sự xuất hiện của 1 ký tự trong
+chuỗi con.
+For example:
+Test 1
+Input: abcabbbcbb
+Result: 3
+
+
+Question 3
+Viết chương trình tìm và trả về độ dài của chuỗi con dài nhất không có
+ký tự nào được lặp lại có trong s.
+Đầu vào: Chuỗi s.
+Đầu ra: Độ dài của chuỗi con dài nhất không có ký tự nào được lặp lại có trong S.
+Lưu ý: Sinh viên chỉ có 5 lần nộp không tính penalty, ở lần nộp thứ 6 trở
+đi bài làm sẽ được tính là 0 điểm.
+For example:
+Test 1
+Input: abcabcbb
+Result: 3
+
+
+Question 4
+Viết chương trình đọc vào chuỗi s từ bàn phím, tìm và trả về chuỗi con
+có tính chất đối xứng dài nhất có trong s.
+Đầu vào: Chuỗi s.
+Đầu ra:
+Chuỗi con có tính chất đối xứng dài nhất có trong s. Trong trường hợp
+có nhiều chuỗi con dài nhất có cùng độ dài, trả về chuỗi con có vị trí bắt
+đầu nhỏ nhất.
+For example:
+Test 1
+Input: babad
+Result: bab
+
+
+Question 5
+Hiện thực hàm void replaceString(string s, string s1, string s2) để in ra
+chuỗi s sau khi đã thay thế chuỗi con s1 cuối cùng thành s2 có trong s.
+Nếu không tìm thấy chuỗi s1 thì giữ nguyên chuỗi s và in ra.
+Gợi ý: Tham khảo hàm string::replace trong thư viện <string>.
+For example:
+string s = "Truong Dai Hoc Bach Khoa, Sai Gon";
+string s1 = "ai";
+string s2 = "ong";
+replaceString(s, s1, s2);
+Result: Truong Dai Hoc Bach Khoa, Song Gon
+
+
+Question 6
+Hiện thực hàm deleteWord(string s, string s1) với chức năng in ra chuỗi
+s sau khi xóa tất cả các chuỗi s1 có trong s.
+For example:
+Test
+string s = "Truong Dai Hoc Bach Khoa, Sai Gon";
+string s1 = "ai ";
+deleteWord(s, s1);
+Result: Truong DHoc Bach Khoa, SGon
+
+
+Question 7
+Hiện thực hàm findAllIndex(string s1, string s2) để in ra tất cả các vị trí
+xuất hiện của kí tự đầu tiên của chuỗi s2 trong chuỗi s1. Nếu không tìm
+thấy in ra -1. Các vị trí tìm thấy sẽ cách nhau một khoảng trắng, sau vị
+trí cuối cùng, không in thêm bất kỳ ký tự nào (kể cả khoảng trắng, dấu
+xuống hàng)
+Gợi ý: Sử dụng hàm string::find trong thư viện <string>.
+For example:
+Test
+string s1 = "Truong Dai Hoc Bach Khoa."; 
+string s2 = "a";
+findAllIndex(s1,s2);
+Result: 8 16 23
+
+
+Question 8
+Hiện thực hàm cutString(string s, int index) để in ra chuỗi con của chuỗi
+s từ vị trí index đến hết (index tính từ 0).
+Gợi ý : Sử dụng hàm string::substr trong thư viện <string>.
+For example:
+Test
+string s = "Truong Dai Hoc Bach Khoa.";
+cutString(s, 7);
+Result: Dai Hoc Bach Khoa.

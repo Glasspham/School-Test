@@ -1,0 +1,7 @@
+Có một danh sách bảng điểm 2 chiều gồm các cột thông tin: có thể tạo trước (hoặc nhập). 
+STT, MSSV, Họ Và Tên, Điểm Môn 1, Điểm Môn 2.
+Viết chương trình thỏa mãn, cho 20 bạn sinh viên.
+a: Tính giá trị điểm trung bình của mỗi bạn sinh viên và lưu lại trên file.(Thêm 1 cột)
+b: Hiển thị ra màn hình các bạn có xếp loại là giỏi (>=8.0)
+c: Hiển thị ra màn hình các bạn sinh viên không PASS được học kỳ (TB < 5.0)
+d: Vẽ đồ thị về phân bố phố điểm trung bình (20 bạn sinh viên). (Làm tròn điểm nguyên vd: 1 2 3 4 ...)

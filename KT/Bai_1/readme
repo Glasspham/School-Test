@@ -1,0 +1,7 @@
+Viết chương trình thực hiện yêu cầu sau: Cho hàm số: y(x) = (x**2) + 5x + 4 * M
+a: Vẽ đồ thị hàm số khi: M = 1
+b: Viết chương trình thực hiện giải phương trình y(x) = 0 khi nhập M từ bàn phím.
+c: Viết chương trình tìm các giá trị của M đề phương trình có 2 nghiệm phân biệt.
+d: Viết chương trình tìm các giá trị M thỏa mãn điều kiện: | 
+- 5 <= y(x) <= 5 với x nhập từ bàn phím. 
+(Nếu có thể) Hãy tô màu miền giá trị M tìm được trên đồ thị.

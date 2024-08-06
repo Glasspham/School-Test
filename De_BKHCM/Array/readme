@@ -1,0 +1,213 @@
+Question 1
+Mô tả tiếng Việt:
+Cho mảng 2 chiều chứa các số nguyên, kích thước M x N.
+Hiện thực hàm:
+    int findMaxColumn(int arr[][1000], int row, int col);
+Trong đó: arr, row và col lần lượt là mảng 2 chiều, số hàng và số cột
+của mảng. Tìm chỉ số của cột có tổng tất cả các phần tử lớn nhất.
+Lưu ý: Cột đầu tiên được đánh chỉ số 0. Nếu có nhiều hơn một cột có
+tổng lớn nhất, ta chọn cột có chỉ số lớn nhất.
+Ghi chú: (Các) thư viện iostream và climits đã được khai báo, và
+namespace std đã được sử dụng.
+For example:
+Test
+int arr[][1000] ={{-44,64,-6},{87,92,-19},{-92,53,-38},{-39,-92,21}};
+cout << findMaxColumn(arr,4,3);
+Result: 1
+int arr[][1000]={{-92,78,-2,-58,-37},{44,-4,30,-69,22}} ;
+cout << findMaxColumn(arr,2,5);
+Result: 1
+
+
+Question 2
+Cho mảng 2 chiều chứa các số nguyên, kích thước N x N.
+Hiện thực hàm:
+    int diagonalProduct(int arr[][1000], int row, int col);
+Trong đó: arr, row và col lần lượt là mảng 2 chiều, số hàng và số cột
+của mảng. Tìm tích của tất cả các phần tử trong đường chéo chính của
+mảng.
+Ghi chú: (Các) thư viện iostream, và string đã được khai báo, và
+namespace std đã được sử dụng.
+For example:
+int arr[][1000] = {{-45,18,-37},{-2,-31,24},{-48,-33,-48}};
+cout << diagonalProduct(arr,3,3);
+Result: -66960
+int arr[][1000] = {{-11,44,18,33},{-34,-9,-42,-42},{47,-26,4,-8},{-35,11,-34,-19}};
+cout << diagonalProduct(arr,4,4);
+Result: -7524
+
+
+Question 3
+Cho mảng 2 chiều chứa các số nguyên, kích thước N x N.
+Hiện thực hàm:
+    bool isSymmetric(int arr[][1000], int row, int col);
+Trong đó: arr, row và col lần lượt là mảng 2 chiều, số hàng và số cột
+của mảng. Một ma trận được gọi là đối xứng nếu với mọi i, j, giá trị của
+phần tử ở hàng i, cột j luôn bằng giá trị của phần tử ở hàng j, cột i. Kiểm
+tra xem mảng này có phải là một ma trận đối xứng hay không, trả về
+true nếu mảng này là ma trận đối xứng, ngược lại, trả về false.
+Ghi chú: (Các) thư viện iostream và string đã được khai báo, và
+namespace std đã được sử dụng.
+For example:
+Test
+int arr[][1000] ={{1,4,6},{4,5,3},{6,3,9}};
+cout << isSymmetric(arr,3,3);
+Result: 1
+int arr[][1000] ={{1,9,6},{4,5,3},{6,3,9}};
+cout << isSymmetric(arr,3,3);
+Result: 0
+
+
+Question 4
+Cho mảng 2 chiều chứa các số nguyên, kích thước M x N.
+Hiện thực hàm:
+    int ascendingRows(int arr[][1000], int row, int col);
+Trong đó: arr, row và col lần lượt là mảng 2 chiều, số hàng và số cột
+của mảng. Một hàng trong mảng được gọi là HN1 nếu trong hàng đó,
+mỗi phần tử đều có giá trị không lớn hơn các phần tử đứng sau nó. Tìm
+số hàng HN1 có trong mảng.
+Ghi chú: (Các) thư viện iostream, và string đã được khai báo, và
+namespace std đã được sử dụng.
+For example:
+Test
+int arr[][1000] ={{32,4,9},{-80,37,71},{-91,-79,-55}};
+cout << ascendingRows(arr,3, 3);
+Result: 2
+int arr[][1000] = {{-28,-8,-60,18},{-100,44,-1,24},{-94,92,-70,75}};
+cout << ascendingRows(arr,3,4);
+Result: 0
+
+
+Question 5
+Cho mảng 2 chiều chứa các số nguyên, kích thước M x N.
+Hiện thực hàm:
+    int primeColumns(int arr[][1000], int row, int col);
+Trong đó: arr, row và col lần lượt là mảng 2 chiều, số hàng và số cột
+của mảng. Một cột của mảng được gọi là HN2 nếu tổng tất cả các phần
+tử trong cột đó là số nguyên tố. Tìm số cột HN2 có trong mảng.
+Ghi chú: (Các) thư viện iostream, vector và string đã được khai báo,
+và namespace std đã được sử dụng.
+For example:
+int arr[][1000] = {{-64,-28,-3,64},{-56,90,57,-31}};
+cout << primeColumns(arr,2,4);
+Result: 0
+int arr[][1000] = {{34,-15,11,-70,-23,24},{-39,-90,63,-45,-52,48},{-42,92,55,92,82,81}};
+cout << primeColumns(arr,3,6);
+Result: 1
+
+
+Question 6
+Mô tả tiếng Việt:
+Cho mảng 2 chiều chứa các số nguyên, kích thước M x N.
+Hiện thực hàm:
+    int specialCells(int arr[][1000], int row, int col);
+Trong đó: arr, row và col lần lượt là mảng 2 chiều, số hàng và số cột
+của mảng. Một ô trong mảng được gọi là HN3 nếu tổng tất cả các phần
+tử trong hàng chứa ô đó và tổng tất cả các phần tử trong cột chứa ô đó
+đều là số nguyên tố. Tìm số ô HN3 trong mảng.
+Ghi chú: (Các) thư viện iostream, vector và string đã được khai báo,
+và namespace std đã được sử dụng.
+For example:
+Test
+int arr[][1000]={{37,53,74},{12,37,60},{98,13,15}};
+cout << specialCells(arr,3,3);
+Result: 2
+int arr[][1000]={{1,87,26},{97,95,88},{57,60,46}};
+cout << specialCells(arr,3,3);
+Result: 0
+
+
+Question 7
+Cho mảng 2 chiều chứa các số nguyên, kích thước M x N.
+Hiện thực hàm:
+    int diagonalDiff(int arr[][1000], int row, int col, int x, int y);
+Trong đó: arr, row và col lần lượt là mảng 2 chiều, số hàng, số cột của
+mảng, x và y biểu thị ô có số hàng là x và số cột là y trong mảng đã cho
+(0sx<row và 0sy<col). Tổng của một đường chéo là tổng tất cả các
+phần tử nằm trên đường chéo đó. Tìm giá trị tuyệt đối của hiệu giữa hai
+đường chéo đi qua ô có số hàng x và số cột y.
+Ghi chú: (Các) thư viện iostream, vector và string đã được khai báo,
+và namespace std đã được sử dụng.
+For example:
+int arr[][1000] = {{55,85,47,58},{31,4,60,67},{94,69,71,73},{51,62,64,90}};
+cout << diagonalDiff(arr,4,4,1,2);
+Result: 20
+int arr[][1000] = {{88,72,65,37},{82,84,34,12},{74,46,88,44}};
+cout << diagonalDiff(arr,3,4,1,0);
+Result: 26
+
+
+Question 8
+Mô tả tiếng Việt:
+Cho mảng 2 chiều chứa các số nguyên, kích thước M x N.
+Hiện thực hàm:
+    int subMatrix(int arr[][1000], int row, int col);
+Trong đó: arr, row và col lần lượt là mảng 2 chiều, số hàng và số cột
+của mảng. Một mảng con kích thước 2x2 thuộc mảng đã cho được gọi
+là HN4 nếu tổng tất cả các phần tử trong nó là một số lẻ. Tìm số mảng
+con HN4 trong mảng đã cho.
+Ghi chú: (Các) thư viện iostream, vector và string đã được khai báo,
+và namespace std đã được sử dụng.
+For example:
+Test
+int arr[][1000]={{66,16,71},{25,81,61},{2,10,34}};
+cout << subMatrix(arr,3, 3);
+Result: 1
+int arr[][1000] ={{44,45,89},{82,91,34},{83,87,33},{65,51,66}};
+cout << subMatrix(arr,4, 3);
+Result: 4
+
+
+Question 9
+Bạn được cho một ma trận 2D kích thước N x N biểu diễn một hình ảnh,
+hãy xoay hình ảnh này một góc 90 độ (theo chiều kim đồng hồ)
+Ví dụ :
+1 2 3       7 4 1
+4 5 6   ->  8 5 2
+7 8 9       9 6 3
+Hiện thực hàm:
+    void rotatelmage(int img[][1000], int N);
+Trong đó: img và N lần lượt là mảng 2 chiều biểu diễn hình ảnh và kích
+thước của mảng.
+Ghi chú: (Các) thư viện iostream, vector và string đã được khai báo,
+và namespace std đã được sử dụng.
+For example:
+Test
+int img[][1000]={{1,2,3},{4,5,6},{7,8,9}}:
+rotateImage(img,3);
+printImage(img,3);
+Result
+7 4 1
+8 5 2
+9 6 3
+int img[][1000]={{5,1,9,11},{2,4,8,10},{13,3,6,7} ,{15,14,12,16}};
+rotateImage(img,4);
+printImage(img,4);
+Result
+15 13 2 5
+14 3 4 1
+12 68 9
+16 7 10 1
+
+
+Question 10
+Bạn được cho một ma trận 2D kích thước M x N, hãy in ra tất cả phần tử
+trong mảng theo đường xoắn ốc
+Ví dụ :
+1 -> 2 -> 3
+4 -> 5    6
+7 <- 8 <- 9
+Hiện thực hàm:
+    void printSpiral(int ar[][1000], int row, int col);
+Trong đó: img, M và N lần lượt là mảng 2 chiều, số hàng và số cột của
+mảng.
+Ghi chú: (Các) thư viện iostream, vector và string đã được khai báo,
+và namespace std đã được sử dụng.
+For example:
+int ar[][1000] = {{1,2,3},{4,5,6},{7,8,9}};
+printSpiral(arr,3,3);
+Result: 1 2 3 6 9 8 7 4 5
+
+int ar[][1000] = {{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}};
+printSpiral(arr,3,4);
+Result: 1 2 3 4 8 12 11 10 9 5

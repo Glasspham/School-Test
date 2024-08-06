@@ -1,0 +1,5 @@
+Câu 5:
+Thực hiện tạo một tập tin tên là test1.txt với nội dung như sau:
+{'den':0,"vang':1, 'xanh': 2, 'do':3, 'hong':4}
+a. Thực hiện đọc file vừa tạo, chuyển dữ liệu vừa đọc được sang kiểu tử điền (dict) và gân cho biến my dict.
+b. Thực hiện thêm vào my dict phần tử (tim:99) và xóa phần tử ('den':01 ghi lại my dict vào tập tin test1.txt.
